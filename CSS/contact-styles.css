@@ -1,0 +1,18 @@
+#contactBody {
+    margin: 100px auto;
+}
+
+#contactBody p {
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+hr {
+    margin: 50px 5%;
+}
+
+#submit {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+}
