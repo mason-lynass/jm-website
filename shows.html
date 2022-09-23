@@ -1,3 +1,4 @@
+<!--this is what a comment looks like, it doesn't show on the webpage-->
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -7,32 +8,50 @@
     <link rel="stylesheet" href="./CSS/shows-styles.css">
 </head>
 <body>
+<!--this is where you can change the title at the top of the page-->
     <h1 id="JMHeader">Jesse Miller</h1>
-    <div class="nav">
+
+<!--these are the navigation links
+if you want to add another page, add it here to make it accessible in the navigation-->
+<div class="nav">
+    <!--make sure to use class="activePage" on the nav link that corresponds to this page-->
         <a class="otherPage" href="./index.html">Recent Works</a>
         <a class="otherPage" href="./discography.html">Discography</a>
         <a class="activePage" href="./shows.html">Shows</a>
         <a class="otherPage" href="./contact.html">Contact</a>
     </div>
+
     <div id="showsBox">
         <div id="upcomingShows" class="showsMain">
-            <p id="subtitle">Upcoming Shows:</p>
+<!--this is the title for the section-->
+            <h2 id="subtitle">Upcoming Shows:</h2>
+
+<!--this div contains all of the info for one show
+to add a new show, you can copy this section from <div> to </div>
+and replace all of the text between the <p> tags-->
             <div class="oneShow">
                 <p>Jesse Miller - Live at the Village Vanguard</p>
                 <p>April 20th, 2069</p>
                 <p>Village Vanguard, NYC, New York</p>
-                <a href="">link to tickets</a>
-        </div>
+                <a href="">link to tickets</a><!--link goes inside the "" to the right of href=-->
+            </div>
+
         </div>
         <hr>
         <div id="pastShows" class="showsMain">
-            <p id="subtitle">past shows:</p>
+<!--this is the title for the section-->
+            <h2 id="subtitle">past shows:</h2>
+
+<!--for now, you'll have to cut the show from the 
+Upcoming Shows section and paste it into this section
+from <div> through </div>-->            
             <div class="oneShow">
                 <p>Hat Hair - with Pavement and Built to Spill</p>
                 <p>April 20th, 2018</p>
                 <p>Showbox SoDo, Seattle, WA</p>
-                <a href="">link to tickets</a>
+                <a href="">link to tickets</a><!--link goes inside the "" to the right of href=-->
             </div>
+
         </div>
     </div>  
 </body>
