@@ -11,27 +11,25 @@
 </head>
 <body>
 <!--this is where you can change the title at the top of the page-->
-    <h1 id="JMHeader">Jesse Miller</h1>
+    <div>
+        <a href="./index.html" id="JMHeader">
+            <h1 id="JMHTitle">Jesse Miller</h1>
+            <h3 id="JMHSubtitle" >Composer - Producer - Guitarist</h3>
+        </a>
+    </div>
 <!--these are the navigation links
 if you want to add another page, add it here to make it accessible in the navigation-->
     <div class="nav">
 <!--make sure to use class="activePage" on the nav link that corresponds to this page-->
-        <a class="activePage" href="./index.html">Recent Works</a>
         <a class="otherPage" href="./discography.html">Discography</a>
-        <a class="otherPage" href="./shows.html">Shows</a>
-        <a class="otherPage" href="./contact.html">Contact</a>
+        <a class="otherPage" href="./live.html">Live</a>
+        <a class="otherPage" href="./about.html">About</a>
+        <a class="otherPage" href="./sync.html">Sync Music</a>
+        <a class="otherPage" href="./links.html">Links</a>
     </div>
-    <div>
-        <p>FEED OF RECENT WORKS newest to oldest</p>
-        <p>(EMBEDDED LINKS?) , ability to make blog posts, etc.</p>
-    </div>
-<!--this is how you embed a Bandcamp player-->
-    <div>
-        <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2940996176/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://luwum.bandcamp.com/album/kinda-sick">Kinda Sick by LUWUM</a></iframe>
-    </div>
-<!--this is how you embed a Spotify album-->
-    <div>
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/29mjCPf7fctHNt7L3QCC1m?utm_source=generator" width="600" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <div id="splashContent">
+        <iframe id="splashBandcamp" style="border: 0; width: 700px; height: 820px;" src="https://bandcamp.com/EmbeddedPlayer/album=3044582059/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://luwum.bandcamp.com/album/ur-halo">Ur Halo by J.M. Fodder</a></iframe>
+        <a id="linktree" href="https://linktr.ee/luwum">latest works</a>
     </div>
 </body>
 </html>

@@ -1,0 +1,15 @@
+#projectsBody {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 2%;
+    margin: 40px 0;
+}
+
+
+.link  {
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+    color: blue;
+}
+

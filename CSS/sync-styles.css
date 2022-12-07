@@ -1,0 +1,24 @@
+hr {
+    width: 300px;
+    margin: 40px auto;
+}
+
+p {
+    font-size: 20px;
+}
+
+#syncBody {
+    margin: 50px 20px;
+}
+
+
+#syncGrid {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 5%;
+}
+
+
+#passengersPoster {
+    height: 600px;
+}
