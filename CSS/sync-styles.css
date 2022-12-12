@@ -14,10 +14,15 @@ p {
 
 #syncGrid {
     display: grid;
-    grid-template-columns: 45% 45%;
-    column-gap: 5%;
+    grid-template-columns: 45% 2% 45%;
+    column-gap: 4%;
+    margin: 60px auto;
 }
 
+#syncGridSpacer {
+    width: 0;
+    border: .5px solid black;
+}
 
 #passengersPoster {
     height: 600px;
