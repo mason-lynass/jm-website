@@ -1,15 +1,86 @@
 #projectsBody {
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    column-gap: 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     margin: 40px 0;
 }
 
 
-.link  {
+.link {
     display: block;
+    height: 400px;
+    width: 400px;
+    font-size: 0px;
+    margin: 40px;
+    text-decoration: none;
+}
+
+.pic {
+    width: 100%;
+    background-size: 100%;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#ThePassenger {
+    background-image: url("../images/Projects-Pics/poster.png");   
+}
+
+#JMFodder {
+    background-image: url("../images/Projects-Pics/Jm\ Fodder.jpeg");   
+}
+
+#Luwum {
+    background-image: url("../images/Projects-Pics/Luwum.jpg");   
+}
+
+#SenorFin {
+    background-image: url("../images/Projects-Pics/Señor\ Fin.jpg");   
+}
+
+#ToneSquad {
+    background-image: url("../images/Projects-Pics/Tone\ Squad.jpg");   
+}
+
+#Supertown {
+    background-image: url("../images/Projects-Pics/supertown.jpeg");   
+}
+
+#HatHair {
+    background-image: url("../images/Projects-Pics/Hat\ Hair.jpeg");   
+}
+
+#Peg {
+    background-image: url("../images/Projects-Pics/Peg.jpeg");   
+}
+
+#JonnyG {
+    background-image: url("../images/Projects-Pics/Jonny\ G\ and\ the\ Music\ Factory.jpeg");   
+}
+
+#JoeWaine {
+    background-image: url("../images/Projects-Pics/Joe\ Waine.jpeg");   
+}
+
+#RachelEwen {
+    background-image: url("../images/Projects-Pics/rachel.jpeg");   
+}
+
+#BabyJessica {
+    background-image: url("../images/Projects-Pics/bbj.jpeg");   
+}
+
+.pic:hover p  {
     font-size: 20px;
-    margin: 20px;
-    color: blue;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 180px 0;
+    background-color: rgba(255, 255, 255, .7);
+    color: black;
 }
 

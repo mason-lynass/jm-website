@@ -1,20 +1,27 @@
-#splashContent {
+/* #splashContent {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     gap: -20px;
+} */
+
+#buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
 
-#linktree {
-    font-size: 20px;
+#linktree, #Patreon {
+    display: block;
+    font-size: 16px;
     border: 2px solid black;
-    width: 100px;
-    padding: 10px;
-    margin: 0;
+    width: 120px;
+    padding: 5px 10px;
+    margin: 10px;
     text-decoration: none;
     color: black;
+    background-color: white;
     border-radius: 30px;
-    transform: rotate(-90deg);
 }
 
